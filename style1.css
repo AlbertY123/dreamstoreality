@@ -1,5 +1,9 @@
 body{
-    background-color: #bacce4;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    padding: 0;
+    margin: 0;
 }
 h1{
     text-align: center;
@@ -9,6 +13,7 @@ h2{
     text-align: center;
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Roboto Slab', serif;
+    padding: 30px;
 }
 div{
     position: relative;
@@ -16,4 +21,20 @@ div{
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+}
+svg{
+    padding-top: 30px;
+}
+.layer1{
+    background-image: url('./l1.svg');
+}
+.spacer{
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    overflow-x: hidden;
 }
