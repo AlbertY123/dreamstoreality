@@ -38,3 +38,6 @@ svg{
 *{
     overflow-x: hidden;
 }
+ol{
+    font-family: 'roboto';
+}

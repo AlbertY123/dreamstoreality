@@ -18,3 +18,4 @@ function submit() {
   window.localStorage.setItem("name", name);
   window.location = "/success.html";
 }
+
