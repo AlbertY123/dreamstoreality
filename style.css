@@ -1,12 +1,12 @@
 h1{
     text-align: center;
 }
-h2{
-    text-decoration: underline;
-}
 h3{
     margin: 9px;
     margin-bottom: 30px;
+}
+h2{
+    font-size: small;
 }
 p{
     margin: 9px;

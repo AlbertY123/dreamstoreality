@@ -22,7 +22,8 @@ function all(){
     if(result){
         document.getElementById("confirm").innerHTML = "We know that you are a " + name + " developer! Or to be more accurate, a dev that want's to learn "+ name + ". We are here to help :)";
         if(name=="html"){
-            document.getElementById('step1').innerHTML = "Step 1, learn how to use " + name + ".";
+            document.getElementById('step1').innerHTML = "Step 1, learn how to use " + name + "." + " Also install an IDE to help you get started.";
+            document.getElementById('step2').innerHTML = "Step 2, open up our IDE, the hardest bit about HTML is getting started. Don't worry, continue reading and we'll help";
         }
     }
     else{
