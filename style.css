@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    margin: 9px;
+    margin-bottom: 30px;
+}
+p{
+    margin: 9px;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    padding-top: 100px;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: #0cac3c;
+}
+.yellow{
+    background-color: yellow;
+}
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+    font-family: 'roboto', 'sans-serif';
+}
+*{
+    overflow-x: hidden;
+}
+.custom-shape-divider-top-1649233212 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1649321791 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1649321791 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1649321791 .shape-fill {
+    fill: #57A5E6;
+}
+.spacer {
+    aspect-ratio: 900/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url('./layer1.svg');
+}
+.layer2{
+    background-image: url('./layer2.svg');
+}
+.flip {
+    transform: rotate(180deg)
+}
+button{
+    background-color: #ffffff;
+    width: 75vh;
+    padding: 3px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: #4a3e3e;
+    box-shadow: 3px 3px 3px 1px;
+}
+

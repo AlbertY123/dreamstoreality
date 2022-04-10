@@ -1,0 +1,19 @@
+body{
+    background-color: #bacce4;
+}
+h1{
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
